@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:flutter_application_1/screens/columnsrows.dart';
-import 'package:flutter_application_1/screens/image.dart';
 // ignore: unused_import
 import 'package:flutter_application_1/screens/splashscreen.dart';
 import 'package:flutter_application_1/screens/training.dart';
