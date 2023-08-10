@@ -6,7 +6,7 @@ class MyWidgetimage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Image'),),
+      appBar: AppBar(title: const Text('Image'),),
       body: const Image(
         image: AssetImage("Asset/images/smile.jpg"),
        

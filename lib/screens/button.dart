@@ -7,7 +7,7 @@ class MyWidgetButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('button'),
+        title: const Text('button'),
       ),
       //body: TextButton(
         //child: Text('click here'),
@@ -23,7 +23,7 @@ class MyWidgetButton extends StatelessWidget {
             //print('button pressed');
           //},
           body: OutlinedButton(
-            child: Text('Outline button'),
+            child: const Text('Outline button'),
             onPressed: (){
               print('Outline clicked');
             },

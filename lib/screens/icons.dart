@@ -10,11 +10,11 @@ class MyWidgeticons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Icons'),
+        title: const Text('Icons'),
         backgroundColor: Colors.black,
         
       ),
-      body:Center(
+      body:const Center(
         child:Icon(
           color: Colors.blue,
                 Icons.bubble_chart,

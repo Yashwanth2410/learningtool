@@ -7,7 +7,7 @@ class MyWidgetCR extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Columns and Rows'),
+        title: const Text('Columns and Rows'),
       ),
        body: Column(
          crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -17,25 +17,24 @@ class MyWidgetCR extends StatelessWidget {
         //mainAxisSize: MainAxisSize.min,
         children: [
         Container(
-          child: Text('first',style: TextStyle(fontSize: 25),
-          ),
-          padding: EdgeInsets.all(40),
+          padding: const EdgeInsets.all(40),
           color: Colors.blue,
+          child: const Text('first',style: TextStyle(fontSize: 25),
+          ),
         ),
         Container(
-          child: Text('second',style: TextStyle(fontSize: 25),
-          ),
-          padding: EdgeInsets.all(40),
+          padding: const EdgeInsets.all(40),
           color: Colors.green,
+          child: const Text('second',style: TextStyle(fontSize: 25),
+          ),
         ),
         Container(
-          child: Text('third',style: TextStyle(fontSize: 25),
-          ),
-          padding: EdgeInsets.all(40),
+          padding: const EdgeInsets.all(40),
           color: Colors.red,
+          child: const Text('third',style: TextStyle(fontSize: 25),
+          ),
         ),
        ],
-        
        ),
     );
   }
